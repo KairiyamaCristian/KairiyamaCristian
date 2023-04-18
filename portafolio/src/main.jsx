@@ -4,11 +4,13 @@ import App from './App'
 import Card from './components/card'
 import Navbar from './components/navBar'
 import './index.css'
+import Perfil from './components/perfil'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <Card /><Card /><Card /><Card />
+    <Perfil/>
+    <Card /><Card />
     <Navbar/> 
   </React.StrictMode>,
 )
